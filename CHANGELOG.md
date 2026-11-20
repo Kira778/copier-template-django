@@ -1,0 +1,49 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.1.0-alpha.2] - 2026-03-22
+
+### Added
+
+- `EMAIL_FRONTEND_DOMAIN` and `EMAIL_FRONTEND_SITE_NAME` to default settings
+
+### Changed
+
+- Removed `DEFAULT_PERMISSION_CLASSES` from `REST_FRAMEWORK` settings
+
+### Fixed
+
+- A bug where required fields were not properly defined for user model
+
+## [0.1.0-alpha.1] - 2026-01-01
+
+### Added
+- Initial release of the Copier Django Template
+- Django 4.2, 5.2, and 6.0 support
+- PostgreSQL and SQLite database options
+- JWT authentication with djoser
+- Custom User model
+- Modern Python packaging with uv
+- Code formatting and linting with ruff
+- Task automation with Taskfile
+- Docker support for local development
+- Email testing with Mailpit
+- Testing with pytest
+- Optional Django Debug Toolbar
+- Optional Django Extensions
+- Optional drf-spectacular for API documentation
+- Optional license configuration
+- GitHub Actions CI/CD workflows
+- Comprehensive test coverage
+- Multiple environment configurations (local, preprod, production, test)
+
+[Unreleased]: https://github.com/ouattararomuald/copier-django-template/compare/v0.1.0...HEAD
+[0.1.0-alpha.1]: https://github.com/ouattararomuald/copier-django-template/releases/tag/v0.1.0-alpha.1
+[0.1.0-alpha.2]: https://github.com/ouattararomuald/copier-django-template/releases/tag/v0.1.0-alpha.2
+
